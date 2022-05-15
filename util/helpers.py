@@ -1,5 +1,7 @@
 import os
 import cv2
+import random
+import matplotlib.pyplot as plt
 
 # Load all files in given folder
 def load_images_from_folder(path, flag = 0, debug = 0):
